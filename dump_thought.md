@@ -35,3 +35,21 @@ Agents - systems where LLMs dynamically direct their own processes and tool usag
 5 workflow design patterns
 
 1. prompt chaining - decompose into fixed sub-tasks
+2. Routing - Direct an input into a specialized sub-task, ensuring separation of concerns
+3. Parallelization - Breaking down tasks and running multiple subtasks concurrently
+4. Orchestrator-worker - complex tasks are broken down dynamically and combined
+5. Evaluator-Optimizer - LLM Output is validated by another
+
+By contrast, Agents
+
+1. Open-ended
+2. Feedback loops
+3. No fixed path
+-> guardrail and robustness is concern 
+
+Risks of Agent Frameworks
+- Unpredictable path
+- Unpredictable output
+- Unpredictable costs
+- Monitor
+- "Guardrails ensure your agents behave safely, consistently and within your intended boundaries"
