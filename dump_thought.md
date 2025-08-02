@@ -53,3 +53,30 @@ Risks of Agent Frameworks
 - Unpredictable costs
 - Monitor
 - "Guardrails ensure your agents behave safely, consistently and within your intended boundaries"
+
+the cast of characters
+
+OpenAI:gpt-4o-mini(gpt-4o,o1 nad o3-mini)
+Anthropic: Claude-3-7-Sonnet
+Google:Gemini-2.0-flash
+DeepSeek AI:DeepSeek V3, DeepSeek R1
+    -powerful training technique to train Deepseek is what made it unique.
+Groq: open-source LLMs including Llama3.3 -> not twitter's
+Ollama: local open-source LLMs including LLama3.2
+
+the Vellum leaderboard gives a comparison of costs and performance
+
+Agentic AI Frameworks
+
+- not having a framework is most recommended
+MCP - model context protocol -> models be connected to datas
+In terms of complexity
+1. **LangGraph** | **AutoGen**
+2. **OpenAI Agents SDK** | **CrewAI**
+3. **No framework** | **MCP**
+
+we can provide an LLM with resources to improve its expertise
+
+Basically, just means shoveing data relevant to the question into the prompt
+
+* there are techniques like RAG (Retrieval Augmented Generation) to get really smart at picking relevant content
